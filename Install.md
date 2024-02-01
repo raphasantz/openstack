@@ -1,11 +1,11 @@
 Installation of OpenStack
 In order to install the DevStack in a system, first, you have to create a Linux VM on your computer (such as using VirtualBox or VMware) or remotely in the cloud (such as using AWS).
 
-The VM must have at least 4GB of memory, and the proper internet connection is also important. Here, we are going to use one version of the ubuntu, i.e., 18.04.
+The VM must have at least 4GB of memory, and the proper internet connection is also important. Here, we are going to use one version of the debian 12, i.e., 18.04.
 
 Follow the following steps to install the OpenStack in your ubuntu virtual machine :
 
-Step 1: Update Ubuntu System
+Step 1: Update debian System
 
 Open the terminal and run the following command to ensure that the system is up to date :
 
@@ -30,7 +30,7 @@ You can switch to the 'stack' user by running the following command:
 
 $ sudo su - stack  
 
-In Most of the ubuntu systems, git comes by default. But if git is missing on your system, then install it by running the following command:
+In Most of the debian systems, git comes by default. But if git is missing on your system, then install it by running the following command:
 
 $ sudo apt install git -y  
 
