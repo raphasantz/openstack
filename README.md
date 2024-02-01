@@ -1,0 +1,1 @@
+OpenStack is a cloud OS that is used to control the large pools of computing, storage, and networking resources within a data center. OpenStack is an open-source and free software platform. This is essentially used and implemented as an IaaS for cloud computing.
