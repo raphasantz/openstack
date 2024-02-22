@@ -8,20 +8,20 @@ Follow the following steps to install the OpenStack in your ubuntu virtual machi
 Step 1: Update debian System
 
 Open the terminal and run the following command to ensure that the system is up to date :
-
+```bash
 $ sudo apt update  
 $ sudo apt -y upgrade  
 $ sudo apt -y dist-upgrade  
 $ sudo reboot  
-
+```
 Step 2: Create Stack User
 
 It is important that the devstack must run as a regular user (non-root user) with the sudo enabled.
 
 To keep this note in mind, let's create a new user with the name "stack" and assign the sudo permissions or privileges. To create a stack user, run the following command in your terminal:
-
+```Bash
 $ sudo useradd -s /bin/bash -d /opt/stack -m stack 
-
+```
 Now, to assign the sudo privileges to the stack user, run the following command :
 
 $ echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack  
